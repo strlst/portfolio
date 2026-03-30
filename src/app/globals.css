@@ -279,12 +279,12 @@ nav {
 
 .section-label {
   font-family: var(--font-body);
-  font-size: 1.5rem;
+  font-size: 2rem;
   letter-spacing: 0.16em;
   color: var(--accent);
   text-transform: uppercase;
-  margin-bottom: 0.5rem;
-  display: block;
+  margin-right: 0.6rem;
+  display: inline;
 }
 
 .section-title {

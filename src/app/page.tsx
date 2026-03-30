@@ -378,7 +378,7 @@ const CONTENT: Record<Lang, LangContent> = {
     ],
     footerCopy: (
       <>
-        Plain HTML (originally), now Next.js, hosted on{" "}
+        Created with Next.js, hosted on{" "}
         <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">
           GitHub Pages
         </a>
@@ -394,9 +394,11 @@ const CONTENT: Record<Lang, LangContent> = {
         システム・ソフトウェア・ハードウェアエンジニア。
         <br />
         <strong>CPU・FPGA・コンパイラ・ソフトウェア</strong>
-        の交差点を探求中。日本での
+        の交差点を探求中。
+        <br />
+        日本での意義のある
         <strong>長期雇用</strong>
-        を希望しており、意義のある仕事に取り組みたいと考えています。
+        を希望しております。
       </>
     ),
     nav: {
@@ -806,7 +808,7 @@ export default function Home() {
       {/* Software Projects */}
       <section className="section" id="software">
         <div className="section-header">
-          <div>
+          <div style={{ display: "flex", alignItems: "baseline", gap: "0.6rem" }}>
             <span className="section-label">1.</span>
             <h2 className="section-title">
               {c.softwareTitle[0]}
@@ -827,7 +829,7 @@ export default function Home() {
       {/* Hardware & Embedded */}
       <section className="section" id="hardware">
         <div className="section-header">
-          <div>
+          <div style={{ display: "flex", alignItems: "baseline", gap: "0.6rem" }}>
             <span className="section-label">2.</span>
             <h2 className="section-title">
               {c.hardwareTitle[0]}
@@ -863,7 +865,7 @@ export default function Home() {
       {/* Skills */}
       <section className="section" id="skills">
         <div className="section-header">
-          <div>
+          <div style={{ display: "flex", alignItems: "baseline", gap: "0.6rem" }}>
             <span className="section-label">3.</span>
             <h2 className="section-title">
               {c.skillsTitle[0]}
