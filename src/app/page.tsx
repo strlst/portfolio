@@ -772,6 +772,8 @@ export default function Home() {
               GitLab
             </a>
           </li>
+        </ul>
+        <ul className="nav-links nav-lang-toggle">
           <li>
             {/* Language toggle */}
             <div className="lang-toggle" role="group" aria-label="Language toggle">

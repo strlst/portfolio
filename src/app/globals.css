@@ -596,6 +596,11 @@ footer {
     display: none;
   }
 
+  .nav-lang-toggle {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .grid {
     grid-template-columns: 1fr;
   }
