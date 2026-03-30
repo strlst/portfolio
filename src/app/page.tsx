@@ -211,7 +211,7 @@ const CONTENT: Record<Lang, LangContent> = {
         desc: (
           <>
             A simple and elegant Groq-powered Flask chat interface.{" "}
-            <em>Aibou</em> means &quot;partner&quot; in Japanese; the app offers an AI
+            <em>Aibou</em> means &quot;partner&quot; in Japanese, the app offers an AI
             companion with a clean, minimalist conversational UI supporting a
             full speech-to-chat-to-speech (STT, chat, TTS) pipeline.
           </>
@@ -242,8 +242,8 @@ const CONTENT: Record<Lang, LangContent> = {
         desc: (
           <>
             A simple engineer vocabulary (エンジニア語彙) flashcard app. Builds
-            on a dataset published by a kind developer at @mercari — a bilingual
-            engineer vocabulary list — as a Bun/React/TypeScript stack demo.
+            on a dataset published by a kind developer at @mercari, a bilingual
+            engineer vocabulary list, as a Bun/React/TypeScript stack demo.
           </>
         ),
         tags: ["TypeScript", "Web App", "日本語"],
